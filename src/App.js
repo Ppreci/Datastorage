@@ -1,18 +1,18 @@
 import Features from './components/Features';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Testimonials from './components/Testimonials';
 import We from './components/We';
 
 
 function App() {
   return (
-    <div className="min-w-[450px]">
+    <div>
       <Header />
       <Hero />
       <We />
       <Features />
-      <Testimonials />
+      <Footer />
     </div>
   );
 }
